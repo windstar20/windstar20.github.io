@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'maruburi_regular';
+    src: url("../fonts/MaruBuri-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'maruburi_semi_bold';
+    src: url("../fonts/MaruBuri-SemiBold.ttf");
+}

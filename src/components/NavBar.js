@@ -1,12 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
 import "../css/default.css";
+import { HomeOutlined } from '@ant-design/icons';
 
 function NavBar() {
     return (
         <nav className="nav_bar_wrap">
             <li>
                 <Link to="/">
-                   Home
+                <HomeOutlined />
                 </Link>
             </li>
             <li>
@@ -14,7 +15,7 @@ function NavBar() {
                     Wedding Hall
                 </NavLink>
             </li>
-            <li>
+            {/* <li>
                 <NavLink to="/studio">
                     Studio
                 </NavLink>
@@ -28,7 +29,7 @@ function NavBar() {
                 <NavLink to="/makeup">
                     Makeup
                 </NavLink>
-            </li>
+            </li> */}
             <li>
                 <NavLink to="/profile">
                     profile
