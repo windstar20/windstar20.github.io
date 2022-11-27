@@ -51,6 +51,9 @@ const GlobalStyles = createGlobalStyle`
      border-collapse: collapse;
      border-spacing: 0;
  }
+ a {text-decoration: none; outline: none}
+ a:hover, a:active {text-decoration: none; color:#fff; background-color:#f59000;}
+
 `;
 
 export default GlobalStyles;
